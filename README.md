@@ -20,3 +20,11 @@ https://mays.tamu.edu/humana-tamu-analytics/
 - Event: Each member will have a binary flag to indicate Housing Insecurity
 - Lookback: 1 year look back prior to the date that member responded the screening
 - Data warehouse: 800+ features
+
+### Humana will access model accuracy & fairness
+- Judging metrics will be established based on each team’s scored file
+    - ROC curves generated & AUC metric will be calculated
+    - Disparity Score and corresponding weighting will be calculated utilizing RACE & SEX
+- Based on the 2 metrics, a final combined metric will be assigned to each team’s submission
+    - Combined Metric = AUC * Disparity Score Weight
+- Top 50 teams will be identified and selected using a combined metric 
